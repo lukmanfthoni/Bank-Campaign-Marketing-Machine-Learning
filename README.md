@@ -1,4 +1,4 @@
-
+i
 
 ## 📋 Ringkasan Proyek
 
@@ -64,4 +64,7 @@ streamlit==1.51.0
 joblib==1.5.2
 dill==0.4.0
 ```
+
+Streamlit Link
+https://bank-campaign-marketing-machine-learning-8tvhfpkorwbunpggsbvpn.streamlit.app/
 
