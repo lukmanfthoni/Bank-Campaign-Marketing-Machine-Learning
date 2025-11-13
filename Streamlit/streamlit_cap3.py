@@ -13,13 +13,13 @@ st.set_page_config(page_title="XGBoost Model Prediction", layout="wide")
 # Load model and explainer
 @st.cache_resource
 def load_model():
-    with open('bestmodel.pkl', 'rb') as f:
+    with open('Streamlit/bestmodel.pkl', 'rb') as f:
         model = joblib.load(f)
     return model
 
 @st.cache_resource
 def load_explainer():
-    with open('lime_explainer.dill', 'rb') as f:
+    with open('Streamlit/lime_explainer.dill', 'rb') as f:
         explainer = dill.load(f)
     return explainer
 
@@ -143,4 +143,5 @@ elif predict_button and not model_loaded:
 
 # Footer
 st.markdown("---")
+
 st.markdown("*Built with Streamlit and XGBoost*")
