@@ -33,7 +33,7 @@ except Exception as e:
     model_loaded = False
 
 # Title
-st.title("🎯 XGBoost Model Prediction System")
+st.title("🎯 Deposit Model Prediction System")
 st.markdown("---")
 
 # Create input form in the middle of the screen
@@ -145,3 +145,4 @@ elif predict_button and not model_loaded:
 st.markdown("---")
 
 st.markdown("*Built with Streamlit and XGBoost*")
+
